@@ -39,15 +39,14 @@ int main()
 			if(r>10000000)
 			{
 		status = "BESTFRIEND";			
-		}else
+			}else
 			{
 			status = "UNFRIEND";
 			}	
 		}else
-		{
-				status = "UNFRIEND";
-		}
-	
+			{
+			status = "UNFRIEND";
+			}
 		}
 	cout << status;
 }
